@@ -1,7 +1,13 @@
-alert("hello!");
+//notes
+const container = document.querySelector('.container')
+const allDiv = document.querySelectorAll('div')
 
-document.querySelector('#new-todo').addEventListener('submit', (e) => {
-    e.preventDefault();
-    const text = e.target.elements.text.value.trim();
-    alert(text);
-})
+console.log(allDiv);
+
+//exercise 2
+
+const button = document.querySelector('.button')
+
+button.style.backgroundColor = 'green'
+console.log(button);
+
