@@ -1,13 +1,9 @@
-//notes
-const container = document.querySelector('.container')
-const allDiv = document.querySelectorAll('div')
+let newToDo = document.querySelector('#new-todo')
+newToDo.addEventListener('submit', (event) => {
+    event.preventDefault()
+    const input = event.target.firstElementChild
+    console.log(input.value.trim());
+})
 
-console.log(allDiv);
 
-//exercise 2
-
-const button = document.querySelector('.button')
-
-button.style.backgroundColor = 'green'
-console.log(button);
 
